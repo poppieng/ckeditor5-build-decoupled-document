@@ -66,10 +66,12 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "bugs": {
+    "url": "https://github.com/ckeditor/ckeditor5/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-decoupled-document.git"
+    "url": "git+https://github.com/ckeditor/ckeditor5-build-decoupled-document.git"
   },
   "scripts": {
     "build": "webpack --mode production",
@@ -92,5 +94,8 @@
   },
   "dependencies": {
     "ckeditor5-simple-upload": "^1.0.7"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
