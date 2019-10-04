@@ -94,7 +94,6 @@ DecoupledEditor.defaultConfig = {
 			'blockquote',
 			'imageUpload',
 			'insertTable',
-			'mediaEmbed',
 			'|',
 			'undo',
 			'redo'
